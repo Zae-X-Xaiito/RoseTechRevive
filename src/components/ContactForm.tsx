@@ -24,11 +24,11 @@ export function ContactForm() {
             <div className="mt-10 grid gap-4 text-sm text-[#68686d]">
               <p className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-[#0071e3]" />
-                1-876-555-0198
+                1-658-210-0323
               </p>
               <p className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-[#0071e3]" />
-                hello@rosetechrevive.example
+                rosetechrevive@gmail.com
               </p>
               <p className="flex items-center gap-3">
                 <MapPin className="h-5 w-5 text-[#0071e3]" />

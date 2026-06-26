@@ -3,9 +3,9 @@ import { useMemo, useState } from 'react'
 
 const devices = {
   iPhone: {
-    'Screen replacement': { price: 18500, time: '45-90 min' },
-    'Battery service': { price: 9500, time: '30-60 min' },
-    'Charging port': { price: 12500, time: '1-2 hrs' },
+    'Screen replacement': { price: 18500, time: '1-2 hrs' },
+    'Battery service': { price: 9500, time: '1-3 hrs' },
+    'Charging port': { price: 12500, time: '1-3 hrs' },
     'Water diagnostic': { price: 6500, time: 'Same day' },
   },
   iPad: {
