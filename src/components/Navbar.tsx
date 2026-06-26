@@ -1,5 +1,6 @@
-import { Menu, Wrench, X } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import { useState } from 'react'
+import logo from '../assets/header-logo.png'
 
 const links = [
   { href: '#services', label: 'Services' },
@@ -15,13 +16,8 @@ export function Navbar() {
     <header className="sticky top-0 z-50 w-full bg-white/85 backdrop-blur-md border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <a href="#" className="flex-shrink-0 flex items-center gap-2">
-            <span className="bg-black text-white p-1.5 rounded-lg">
-              <Wrench className="w-5 h-5" />
-            </span>
-            <span className="font-semibold text-lg tracking-tight">
-              RoseTechRevive
-            </span>
+          <a href="#" className="flex-shrink-0 flex items-center">
+            <img src={logo} alt="RoseTechRevive Logo" className="h-12 w-auto object-contain" />
           </a>
 
           <nav className="hidden md:flex items-center gap-8">

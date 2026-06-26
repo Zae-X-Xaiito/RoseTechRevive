@@ -1,4 +1,4 @@
-import { Wrench } from 'lucide-react'
+import logo from '../assets/logo.png'
 
 export function Footer() {
   return (
@@ -6,11 +6,9 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
           <div className="col-span-2 md:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="bg-black text-white p-1 rounded-md">
-                <Wrench className="w-4 h-4" />
-              </div>
-              <span className="font-semibold text-black">RoseTechRevive</span>
+            <div className="flex items-center gap-3 mb-4">
+              <img src={logo} alt="RoseTechRevive Logo" className="h-10 w-auto object-contain" />
+              <span className="font-semibold text-black text-lg">RoseTechRevive</span>
             </div>
             <p className="text-sm text-[#68686d] max-w-xs">
               Premium repair services for essential Apple devices in Jamaica.
